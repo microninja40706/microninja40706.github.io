@@ -5,5 +5,9 @@
 footer {
     position: fixed;
     bottom: 0;
+}
+
+.footer-blue {
     background-color: skyblue;
+    width: 100%;
 }
