@@ -1,13 +1,114 @@
-* {
+html, body {
     font-family: Arial;
 }
 
-footer {
+header {
+    background-color: #333;
     position: fixed;
-    bottom: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 
-.footer-blue {
-    background-color: skyblue;
+nav {
+    margin: 0;
+    padding: 20px 0;
+}
+
+nav li {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-block;
+    width: 80px;
+    list-style: none;
+}
+
+main {
+    text-align: center;
+    position: relative;
+    top: 80px;
+    left: 0;
+}
+
+main h1 {
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+    margin-top: 0px;
+    padding-top: 120px;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    position: fixed;
     width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+ footer p {
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.jumbotron {
+    height: 600px;
+    background-image: url(../images/pines.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.supporting {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    margin-top: 80px;
+}
+
+.supporting h2 {
+    color: #333;
+    font-weight: 600;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.supporting p {
+    color: #333;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.supporting a {
+    background-color: white;
+    color: #333333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1.3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #333333; 
 }
