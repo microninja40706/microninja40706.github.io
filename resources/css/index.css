@@ -1,5 +1,5 @@
 html, body {
-    font-family: Arial;
+    font-family: Helvetica;
 }
 
 header {
@@ -18,7 +18,6 @@ nav {
 
 nav li {
     color: #fff;
-    font-family: Arial, sans-serif;
     font-weight: 600;
     font-size: 12px;
     display: inline-block;
@@ -35,7 +34,6 @@ main {
 
 main h1 {
     color: #333;
-    font-family: Arial, sans-serif;
     font-weight: 600;
     font-size: 70px;
     margin-top: 0px;
@@ -102,7 +100,6 @@ footer {
 .supporting a {
     background-color: white;
     color: #333333;
-    font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 12px;
     letter-spacing: 1.3px;
